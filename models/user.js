@@ -16,20 +16,19 @@ const userSchema = mongoose.Schema({
     },
   },
   password: {
-    require:true,
-    type: String
+    require: true,
+    type: String,
   },
   address: {
     type: String,
-    default: ''
+    default: "",
   },
   type: {
     type: String,
-    default: 'user'
-  }
-
+    default: "user",
+  },
 });
 
-const User = mongoose.model('User',userSchema);
+const User = mongoose.model("User", userSchema);
 
 module.exports = User;

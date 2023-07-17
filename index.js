@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-require('dotenv').config()
+require("dotenv").config();
 
 const PORT = 3000;
 
@@ -22,6 +22,6 @@ mongoose
     console.log(err);
   });
 
-app.listen(PORT, '0.0.0.0',() => {
+app.listen(PORT, "0.0.0.0", () => {
   console.log(`listening on port ${PORT}`);
 });
