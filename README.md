@@ -40,5 +40,3 @@ Challenges:
 - API Design: Creating a well-organized and intuitive API structure for easy integration with the frontend application.
 - Security: Ensuring secure authentication, authorization, and data protection against potential attacks.
 - Scalability: Optimizing the server architecture to handle high traffic and a growing user base.
-
-Overall, the Amazon Clone Server project provides hands-on experience in building the server-side components of an e-commerce platform, equipping developers with essential skills for creating robust, scalable, and secure backend systems.
